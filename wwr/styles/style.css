@@ -65,7 +65,7 @@ main section{
     text-align: center;
 }
 .msg{
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 footer{
     background-color: var(--primary-color);
