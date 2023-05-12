@@ -34,19 +34,38 @@
 }
 #background {
     height: 725px;
+    background-color: var(--secondary-color);
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
 body {
+    background-color: var(--accent2-color);
+}
+header{
     background-color: var(--primary-color);
 }
 nav a{
     text-align:  center;
+}
+.book, .join{
+    background-color: var(--primary-color);
+}
+.book:hover, .join:hover{
+    background-color: var(--accent1-color);
+}
+nav a:hover{
+    background-color: var(--accent1-color);
 }
 .button-box{
     text-align: center;
 }
 main section{
     text-align: center;
+}
+.msg{
+    background-color: var(--primary-color);
+}
+footer{
+    background-color: var(--primary-color);
 }
