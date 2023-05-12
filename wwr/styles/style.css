@@ -43,8 +43,12 @@ nav a{
     background-color: var(--primary-color);
     color: var(--accent2-color)
 }
-.book:hover, .join:hover{
+.book:hover{
     background-color: var(--accent1-color);
+    color: var(--support-color)
+}
+.join:hover{
+    background-color: var(--secondary-color);
     color: var(--support-color)
 }
 nav a:hover{
@@ -61,4 +65,10 @@ main section{
 }
 footer{
     background-color: var(--primary-color);
+}
+footer p {
+    color: var(--accent2-color)
+}
+footer a {
+    color: var(--accent2-color)
 }
