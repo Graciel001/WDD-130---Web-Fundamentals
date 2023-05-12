@@ -25,6 +25,9 @@
     height: 725px;
     background-color: var(--secondary-color);
 }
+#hero-img{
+    width: 100%;
+}
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
@@ -33,6 +36,15 @@ body {
 }
 header{
     background-color: var(--primary-color);
+}
+.logo-container{
+    width: 80px;
+}
+.logo-container .logo {
+    width: 100%;
+}
+.rapids-card .icon {
+    width: 80px;
 }
 nav a{
     text-align:  center;
