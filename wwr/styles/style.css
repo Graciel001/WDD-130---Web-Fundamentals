@@ -48,23 +48,24 @@ header{
 }
 nav a{
     text-align:  center;
-    background-color: var(--accent1-color);
-    color: var(--support-color)
+    color: var(--accent2-color);
+    text-decoration: none;
 }
 .book, .join{
     background-color: var(--primary-color);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    text-decoration: none;
 }
 .book:hover{
     background-color: var(--accent1-color);
-    color: var(--support-color)
+    color: var(--support-color);
 }
 .join:hover{
     background-color: var(--secondary-color);
-    color: var(--support-color)
+    color: var(--support-color);
 }
 nav a:hover{
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
 }
 .button-box{
     text-align: center;
@@ -79,8 +80,13 @@ footer{
     background-color: var(--primary-color);
 }
 footer p {
-    color: var(--accent2-color)
+    color: var(--accent2-color);
 }
 footer a {
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
