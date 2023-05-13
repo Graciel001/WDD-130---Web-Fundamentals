@@ -66,6 +66,7 @@ nav a{
 }
 nav a:hover{
     background-color: var(--accent1-color);
+    color: var(--support-color);
 }
 .button-box{
     text-align: center;
