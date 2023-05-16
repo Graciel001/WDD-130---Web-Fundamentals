@@ -31,6 +31,11 @@ p, a, span {
 }
 body {
     background-color: var(--accent2-color);
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 
 /* Header */
@@ -42,6 +47,7 @@ nav a{
     color: var(--accent2-color);
     text-decoration: none;
     font-size: 18px;
+    padding: 35px;
 }
 nav a:hover{
     background-color: var(--accent1-color);
@@ -61,18 +67,21 @@ nav a:hover{
 }
 .logo-container{
     width: 80px;
+    padding: 5px;
 }
 .logo-container .logo {
     width: 100%;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .book, .join{
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
 }
 .book:hover{
     background-color: var(--accent1-color);
@@ -94,12 +103,14 @@ main section{
 .msg{
     background-color: var(--accent1-color);
     line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     font-size: 1.7em;
 }
 .msg p {
     font-size: .8em;
+    padding-bottom: 15px;
 }
 #background {
     height: 725px;
@@ -109,6 +120,7 @@ main section{
 /* Footer */
 footer{
     background-color: var(--primary-color);
+    padding: 25px 50px;
 }
 footer p {
     color: var(--accent2-color);
@@ -118,6 +130,9 @@ footer a {
     color: var(--accent2-color);
     text-decoration: none;
     font-size: 1.2em;
+}
+.footer .social img{
+    padding-top: 15px;
 }
 footer p a:hover {
     text-decoration: underline;
