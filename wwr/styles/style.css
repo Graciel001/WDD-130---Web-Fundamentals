@@ -24,27 +24,40 @@ p, a, span {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
-/* Custom Styles */
-
+/* General */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-#background {
-    height: 725px;
-    background-color: var(--secondary-color);
+body {
+    background-color: var(--accent2-color);
 }
+
+/* Header */
+header{
+    background-color: var(--primary-color);
+}
+nav a{
+    text-align:  center;
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color: var(--accent1-color);
+    color: var(--support-color);
+}
+
+/* Index */
 #hero-img{
     width: 100%;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-size: 2em;
 }
-body {
-    background-color: var(--accent2-color);
-}
-header{
-    background-color: var(--primary-color);
+#hero-msg h4 {
+    font-size: 1.5em;
 }
 .logo-container{
     width: 80px;
@@ -55,15 +68,11 @@ header{
 .icon {
     width: 80px;
 }
-nav a{
-    text-align:  center;
-    color: var(--accent2-color);
-    text-decoration: none;
-}
 .book, .join{
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-decoration: none;
+    font-size: 18px;
 }
 .book:hover{
     background-color: var(--accent1-color);
@@ -73,24 +82,37 @@ nav a{
     background-color: var(--secondary-color);
     color: var(--support-color);
 }
-nav a:hover{
-    background-color: var(--accent1-color);
-    color: var(--support-color);
-}
 .button-box{
     text-align: center;
 }
 main section{
     text-align: center;
 }
+.home-grid, h2{
+    font-size: 1.7em;
+}
 .msg{
     background-color: var(--accent1-color);
+    line-height: 1.5em;
 }
+.msg h2 {
+    font-size: 1.7em;
+}
+.msg p {
+    font-size: .8em;
+}
+#background {
+    height: 725px;
+    background-color: var(--secondary-color);
+}
+
+/* Footer */
 footer{
     background-color: var(--primary-color);
 }
 footer p {
     color: var(--accent2-color);
+    font-size: .8em
 }
 footer a {
     color: var(--accent2-color);
