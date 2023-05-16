@@ -15,6 +15,15 @@
   --paragraph-font: Poppins, Helvetica, sans-serif;
 }
 
+
+/* FONTS */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oleo Script', Helvetica, Arial, sans-serif;
+}
+p, a, span {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
 /* Custom Styles */
 
 #content {
