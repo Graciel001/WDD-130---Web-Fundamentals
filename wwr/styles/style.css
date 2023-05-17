@@ -43,7 +43,6 @@ header{
     background-color: var(--primary-color);
 }
 nav a{
-    display: inline-block;
     text-align:  center;
     color: var(--accent2-color);
     text-decoration: none;
