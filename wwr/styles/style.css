@@ -112,6 +112,9 @@ main section{
 .rivers-card .card-img, .camping-card .card-img, .rapids-card .card-img {
     border: 10px solid var(--primary-color);
 }
+.img-container{
+    margin: 100px 0px 200px 0px;
+}
 .msg{
     background-color: var(--accent1-color);
     line-height: 1.5em;
