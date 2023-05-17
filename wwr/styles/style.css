@@ -61,7 +61,7 @@ nav a:hover{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
 }
 #hero-msg h4 {
     font-size: 1.5em;
@@ -83,6 +83,7 @@ nav a:hover{
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
 }
 .book:hover{
     background-color: var(--accent1-color);
@@ -101,6 +102,9 @@ main section{
 .home-grid, h2{
     font-size: 1.7em;
 }
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
 .msg{
     background-color: var(--accent1-color);
     line-height: 1.5em;
@@ -108,6 +112,7 @@ main section{
 }
 .msg h2 {
     font-size: 1.7em;
+    margin-top: 20px;
 }
 .msg p {
     font-size: .8em;
@@ -122,6 +127,7 @@ main section{
 footer{
     background-color: var(--primary-color);
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     color: var(--accent2-color);
