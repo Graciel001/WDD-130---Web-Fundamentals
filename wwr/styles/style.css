@@ -40,7 +40,13 @@ h2 {
 
 /* Header */
 header{
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: var(--primary-color);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
     text-align:  center;
@@ -53,7 +59,17 @@ nav a:hover{
     background-color: var(--accent1-color);
     color: var(--support-color);
 }
-
+#logo-link {
+    justify-self: center;
+    align-self: center;
+}
+.logo-container{
+    width: 80px;
+    padding: 5px;
+}
+.logo-container .logo {
+    width: 100%;
+}
 /* Index */
 #hero-img{
     width: 100%;
@@ -67,13 +83,6 @@ nav a:hover{
 }
 main section img{
     box-sizing: border-box;
-}
-.logo-container{
-    width: 80px;
-    padding: 5px;
-}
-.logo-container .logo {
-    width: 100%;
 }
 .icon {
     width: 80px;
