@@ -221,6 +221,9 @@ footer p a:hover {
 
 
 @media screen and (max-width: 900px) {
+    header {
+        background-color: var(--primary-color)
+    }
     #hero, .home-grid {
         display: block;
         height: auto;
