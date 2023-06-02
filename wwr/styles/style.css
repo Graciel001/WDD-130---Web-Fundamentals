@@ -191,6 +191,9 @@ main section{
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.card-img, .mountains{
+    width: 100%;
+}
 /* Footer */
 footer{
     display: flex;
