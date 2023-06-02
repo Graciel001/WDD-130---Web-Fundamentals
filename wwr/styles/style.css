@@ -42,7 +42,7 @@ h2 {
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: var(--primary-color);
+    background-color: #1342669e;
 }
 nav {
     display: flex;
@@ -77,6 +77,9 @@ nav a:hover{
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+}
+#hero #hero-msg h1 {
+    color: var(--accent2-color)
 }
 #hero #hero-msg h4 {
     color: #fff;
