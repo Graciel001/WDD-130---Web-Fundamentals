@@ -63,7 +63,7 @@ nav a:hover{
     justify-self: center;
     align-self: center;
 }
-.logo-container .logo {
+#logo_link .logo {
     width: 80px;
     padding: 5px;
 }
