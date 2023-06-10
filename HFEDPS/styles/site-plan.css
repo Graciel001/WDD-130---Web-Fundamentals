@@ -173,3 +173,15 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.img-container {
+  width: 250px;
+}
+.img-container img {
+  width: 100%;
+}
+@media (min-width: 768px){
+  .img-container{
+    width: 500px;
+  }
+}
