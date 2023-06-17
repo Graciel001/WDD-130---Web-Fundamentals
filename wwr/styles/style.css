@@ -273,7 +273,13 @@ footer p a:hover {
 .faq-page .internal-hero-shot{
     text-align: center;;
   }
-  .faq-page .internal-hero-shot img {
+.faq-page .internal-hero-shot img {
     width: 100%;
     border-bottom: 10px solid var(--primary-color);
-  }
+}
+.faq-page h1, .faq-page h2, .faq-page h3, .faq-page h4{
+    color: var(--primary-color);
+}
+.faq-page p {
+    color: var(--support-color)
+}
