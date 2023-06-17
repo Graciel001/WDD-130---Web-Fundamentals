@@ -277,16 +277,24 @@ footer p a:hover {
     width: 100%;
     border-bottom: 10px solid var(--primary-color);
 }
+.faq-page h1 {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
 .faq-page h1, .faq-page h2, .faq-page h3, .faq-page h4{
     color: var(--primary-color);
 }
 .faq-page p {
     color: var(--support-color)
 }
-
+.faq-page .content{
+    text-align: center;
+}
 @media (min-width: 768px){
     .faq-page .content{
         width: 500px;
+        margin: 0 auto;
+        text-align: initial;
     }
 }
 @media (min-width: 992px){
