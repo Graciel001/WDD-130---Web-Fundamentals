@@ -269,6 +269,9 @@ footer p a:hover {
 }
 
 /* FAQ PAGE*/
+.internal footer {
+    margin-top: 50px;
+}
 
 .faq-page .internal-hero-shot{
     text-align: center;;
