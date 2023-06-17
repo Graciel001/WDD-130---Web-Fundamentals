@@ -191,6 +191,7 @@ nav a:hover {
 /* FAQ PAGE*/
 
 .faq-page .internal-hero-shot{
+  text-align: center;
   border-bottom: 5px solid var(--primary-color);
 }
 .faq-page .internal-hero-shot img {
