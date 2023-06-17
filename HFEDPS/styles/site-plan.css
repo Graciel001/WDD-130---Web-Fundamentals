@@ -186,3 +186,16 @@ nav a:hover {
     width: 400px;
   }
 }
+
+
+/* FAQ PAGE*/
+
+#faq_page{
+  max-width: 1680px;
+}
+#faq_page .internal-hero-shot{
+  border-bottom: 5px solid var(--primary-color);
+}
+#faq_page .internal-hero-shot img {
+  width: 100%;
+}
