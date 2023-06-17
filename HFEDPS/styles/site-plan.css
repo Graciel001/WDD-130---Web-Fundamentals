@@ -190,9 +190,9 @@ nav a:hover {
 
 /* FAQ PAGE*/
 
-.faq_page .internal-hero-shot{
+.faq-page .internal-hero-shot{
   border-bottom: 5px solid var(--primary-color);
 }
-.faq_page .internal-hero-shot img {
+.faq-page .internal-hero-shot img {
   width: 100%;
 }
