@@ -283,3 +283,19 @@ footer p a:hover {
 .faq-page p {
     color: var(--support-color)
 }
+
+@media (min-width: 768px){
+    .faq-page .content{
+        width: 500px;
+    }
+}
+@media (min-width: 992px){
+    .faq-page .content{
+        width: 700px;
+    }
+}
+@media (min-width: 1200px){
+    .faq-page .content{
+        width: 1170px;
+    }
+}
