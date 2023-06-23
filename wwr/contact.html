@@ -18,7 +18,7 @@
                 <a href="/wdd130/wwr/contact.html" title="Contact Us">Contact Us</a>
             </nav>
         </header>
-       <div id="feedback" class="contact_page">
+       <div class="contact_page">
         <form action="/my-handling-form-page" method="post">
             <ul>
               <li>
@@ -33,10 +33,13 @@
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message"></textarea>
               </li>
-          
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>              
               …
             </ul>
-          </form>          
+          </form>
+          <div id="feedback"></div>      
        </div>
         <footer>
             <p>Dry Oar &copy; 2023 - Graciel Velazquez</p>
