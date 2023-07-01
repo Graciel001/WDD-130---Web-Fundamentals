@@ -38,10 +38,13 @@ body {
     margin: 0 auto;
 }
 #content header {
+    background-color: #000;
+}
+#content header .contain{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-color);
+    padding: 10px 0px;
 }
 #content header nav {
     display: flex;
