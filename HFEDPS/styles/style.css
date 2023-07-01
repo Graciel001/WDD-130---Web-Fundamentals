@@ -175,6 +175,9 @@ footer .row .social-media{
     display: flex;
     justify-content: center;
 }
+footer .row .social-media-container {
+    margin-bottom: 30px;
+}
 footer .row .social-media .img-container {
     width: 40px;
     margin: 0px 5px;
@@ -183,6 +186,8 @@ footer .row .social-media .img-container img {
     width: 100%;
 }
 footer .row .quick-link a {
+    display: block;
+    padding: 10px 0px;
     color: #fff;
     font-size: 23px;
     text-decoration: none;
@@ -228,6 +233,9 @@ footer .row .quick-link a:hover {
     }
     footer .row {
         flex-direction: row;
+    }
+    footer .row .social-media-container {
+        margin-bottom: 0px;
     }
 }
 @media (min-width: 992px){
