@@ -160,7 +160,6 @@ footer .row {
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
-    width: 250px;
 }
 footer .row h3 {
     color: var(--secondary-color);
@@ -200,6 +199,11 @@ footer .row .quick-link a:hover {
     color: var(--secondary-color);
 }
 /* medias */
+@media (max-width: 767px){
+    footer .row{
+        width: 250px;
+    }
+}
 @media (min-width: 768px){
     #hero {
         display: grid;
@@ -234,7 +238,6 @@ footer .row .quick-link a:hover {
     }
     footer .row {
         flex-direction: row;
-        width: initial;
     }
     footer .row .social-media-container {
         margin-bottom: 0px;
