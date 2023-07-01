@@ -139,9 +139,15 @@ body {
     color: var(--accent1-color);
     font-size: 23px;
     text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #000;
+    font-family: var(--heading-font);
 }
 .home-grid .row .welcome-txt p {
     color: #000;
+    font-size: 16px;
+    margin-bottom: 15px;
 } 
 /* medias */
 @media (min-width: 768px){
@@ -186,12 +192,18 @@ body {
         padding: 5% 0%;
     }
     .home-grid .row .welcome-txt h3{
-        font-size: 40px;
+        font-size: 50px;
     }
 }
 @media (min-width: 1200px){
     .contain{
         width: 1170px;
+    }
+    .home-grid .row .welcome-txt h3{
+        font-size: 70px;
+    }
+    .home-grid .row .welcome-txt p{
+        font-size: 22px;
     }
 }
 @media (min-width: 1530px){
