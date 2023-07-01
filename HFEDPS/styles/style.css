@@ -128,7 +128,7 @@ body {
 @media (min-width: 768px){
     #hero {
         display: grid;
-        background-color: none;
+        background: none;
         padding: 0;
     }
     .hero-info{
