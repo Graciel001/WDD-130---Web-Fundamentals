@@ -41,16 +41,35 @@ body {
     background-color: #000;
 }
 #content header .contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px 0px;
 }
 #content header nav {
-    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 #content header nav a{
     color: var(--accent2-color);
     text-decoration: none;
     text-transform: uppercase;
     font-family: var(--paragraph-font);
+    padding: 100px;
+    position: relative;
+}
+#content header nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: var(--secondary-color);
+}
+#content header nav a:hover::before {
+    width: 100%;
 }
 #logo_link{
     width: 250px;
