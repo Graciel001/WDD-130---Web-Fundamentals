@@ -44,7 +44,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 10px 20px;
 }
 #content header nav {
     display: flex;
@@ -88,6 +88,9 @@ body {
     }
     #content header nav a{
         padding: 57px;
+    }
+    #content header .contain{
+        padding: 10px 0px;
     }
 }
 @media (min-width: 992px){
