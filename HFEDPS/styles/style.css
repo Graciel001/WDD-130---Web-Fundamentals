@@ -83,7 +83,7 @@ body {
 
 @media (min-width: 768px){
     #content header nav{
-        flex-direction: column;
+        flex-direction: row;
         margin: 0px 10px;
     }
     #content header nav a{
