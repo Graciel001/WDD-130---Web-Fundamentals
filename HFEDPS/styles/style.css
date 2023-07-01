@@ -178,6 +178,10 @@ footer .row .social-media .img-container {
 footer .row .social-media .img-container img {
     width: 100%;
 }
+footer .row .quick-link a {
+    color: #fff;
+    font-size: 23px;
+}
 /* medias */
 @media (min-width: 768px){
     #hero {
@@ -208,7 +212,7 @@ footer .row .social-media .img-container img {
         width: 50%;
         padding: 0px 15px;
     }
-    .footer .row {
+    footer .row {
         flex-direction: row;
     }
 }
@@ -242,8 +246,8 @@ footer .row .social-media .img-container img {
     .home-grid .row .welcome-txt p{
         font-size: 22px;
     }
-    .footer .row h3 {
-        font-size: 40px;
+    footer .row h3 {
+        font-size: 45px;
     }
 }
 @media (min-width: 1530px){
