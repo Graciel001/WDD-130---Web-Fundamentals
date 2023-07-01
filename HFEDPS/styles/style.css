@@ -151,16 +151,16 @@ body {
     font-size: 16px;
     margin-bottom: 15px;
 }
-.footer{
+footer{
     background-color: var(--primary-color);
 }
-.footer .row {
+footer .row {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
 }
-.footer .row h3 {
+footer .row h3 {
     color: var(--accent1-color);
     font-size: 23px;
     text-align: center;
@@ -169,13 +169,13 @@ body {
     text-shadow: 1px 1px 3px #000;
     font-family: var(--heading-font);
 }
-.footer .row .social-media{
+footer .row .social-media{
     display: flex;
 }
-.footer .row .social-media .img-container {
+footer .row .social-media .img-container {
     width: 40px;
 }
-.footer .row .social-media .img-container img {
+footer .row .social-media .img-container img {
     width: 100%;
 }
 /* medias */
