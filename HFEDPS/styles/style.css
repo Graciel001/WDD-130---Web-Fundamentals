@@ -56,7 +56,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-family: var(--paragraph-font);
-    padding: 100px;
+    padding: 57px;
     position: relative;
 }
 #content header nav a::before {
@@ -66,13 +66,14 @@ body {
     left: 0;
     width: 0;
     height: 5px;
+    transition: .2s;
     background-color: var(--secondary-color);
 }
 #content header nav a:hover::before {
     width: 100%;
 }
 #logo_link{
-    width: 250px;
+    width: 150px;
 }
 #logo_link img{
     width: 100%;
