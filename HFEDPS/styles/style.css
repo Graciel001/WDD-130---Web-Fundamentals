@@ -49,6 +49,8 @@ body {
 #content header nav {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    margin: 0px 10px;
     width: 100%;
 }
 #content header nav a{
@@ -66,7 +68,7 @@ body {
     left: 0;
     width: 0;
     height: 5px;
-    transition: .2s;
+    transition: .3s;
     background-color: var(--secondary-color);
 }
 #content header nav a:hover::before {
@@ -77,6 +79,13 @@ body {
 }
 #logo_link img{
     width: 100%;
+}
+
+@media (min-width: 768px){
+    #content header nav{
+        flex-direction: column;
+        margin: 0px 10px;
+    }
 }
 @media (min-width: 992px){
     .contain{
