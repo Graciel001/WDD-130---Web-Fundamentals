@@ -124,6 +124,25 @@ body {
     color: var(--accent2-color);
     text-shadow: 1px 1px 3px black;
 }
+.home-grid{
+    padding: 10% 0%;
+}
+.home-grid .row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-grid .row .img-container img {
+    width: 100%;
+}
+.home-grid .row .welcome-txt h3{
+    color: var(--accent1-color);
+    font-size: 23px;
+    text-align: center;
+}
+.home-grid .row .welcome-txt p {
+    color: #000;
+} 
 /* medias */
 @media (min-width: 768px){
     #hero {
@@ -146,6 +165,9 @@ body {
     #content header .contain{
         padding: 10px 0px;
     }
+    .home-grid .row {
+        flex-direction: row;
+    }
 }
 @media (min-width: 992px){
     .contain{
@@ -159,6 +181,12 @@ body {
     }
     #hero-msg p{
         font-size: 23px;
+    }
+    .home-grid{
+        padding: 5% 0%;
+    }
+    .home-grid .row .welcome-txt h3{
+        font-size: 40px;
     }
 }
 @media (min-width: 1200px){
