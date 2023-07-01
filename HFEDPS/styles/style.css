@@ -163,10 +163,10 @@ footer .row {
 }
 footer .row h3 {
     color: var(--secondary-color);
-    margin-bottom: 30x;
     font-size: 23px;
     text-align: center;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 30x;
     text-transform: uppercase;
     text-shadow: 1px 1px 3px #000;
     font-family: var(--heading-font);
@@ -174,10 +174,10 @@ footer .row h3 {
 footer .row .social-media{
     display: flex;
     justify-content: center;
-    margin: 0px 5px;
 }
 footer .row .social-media .img-container {
     width: 40px;
+    margin: 0px 5px;
 }
 footer .row .social-media .img-container img {
     width: 100%;
@@ -188,6 +188,7 @@ footer .row .quick-link a {
     text-decoration: none;
     text-transform: uppercase;
     transition: .3s;
+    font-family: var(--paragraph-font);
 }
 footer .row .quick-link a:hover {
     color: var(--secondary-color);
