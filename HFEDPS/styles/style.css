@@ -58,7 +58,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-family: var(--paragraph-font);
-    padding: 57px;
+    padding: 30px;
     position: relative;
 }
 #content header nav a::before {
@@ -85,6 +85,9 @@ body {
     #content header nav{
         flex-direction: column;
         margin: 0px 10px;
+    }
+    #content header nav a{
+        padding: 57px;
     }
 }
 @media (min-width: 992px){
