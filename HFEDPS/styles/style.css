@@ -41,15 +41,10 @@ body {
     background-color: #000;
 }
 #content header .contain{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 0px;
 }
 #content header nav {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+    
 }
 #content header nav a{
     color: var(--accent2-color);
