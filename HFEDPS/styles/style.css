@@ -83,8 +83,9 @@ body {
 
 /* Hero Shot*/
 #hero{
-    display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    background-color: var(--primary-color);
+    padding: 20px;
 }
 #hero-box{
     grid-column: 1/4;
@@ -96,7 +97,7 @@ body {
     filter: brightness(0.5);
 }
 .hero-info{
-    display: grid;
+    width: 220px;
     align-self: center;
     grid-template-columns: 1fr 1fr;
     grid-column: 1/4;
@@ -124,6 +125,15 @@ body {
 }
 /* medias */
 @media (min-width: 768px){
+    #hero {
+        display: grid;
+        background-color: none;
+        padding: 0;
+    }
+    .hero-info{
+        display: grid;
+        width: initial;
+    }
     #content header nav{
         flex-direction: row;
         margin: 0px 10px;
