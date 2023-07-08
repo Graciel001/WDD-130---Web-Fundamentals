@@ -287,6 +287,12 @@ footer .row .quick-link a:hover {
 
 
 /* SKILLS PAGE*/
+#internal h3 {
+    color: var(--accent1-color);
+}
+#internal p {
+    font-size: 16px;
+}
 #internal .page_title{
     border-bottom: 5px solid var(--accent1-color)
 }
@@ -297,10 +303,14 @@ footer .row .quick-link a:hover {
 #internal .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 #internal .row .txt {
     width: 100%;
     padding: 15px;
+}
+#internal .row .txt ul li {
+    padding: 10px;
 }
 #internal .row .txt h3 {
     font-size: 30px;
@@ -313,7 +323,7 @@ footer .row .quick-link a:hover {
     width: 100%;
 }
 @media (min-width: 768px){
-    #internal .page_title{
+    #internal .page_title h1{
         font-size: 45px;
     }
     #internal .row .txt{
