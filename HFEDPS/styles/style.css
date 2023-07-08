@@ -284,3 +284,57 @@ footer .row .quick-link a:hover {
         width: 1500px;
     }
 }
+
+
+/* SKILLS PAGE*/
+#internal .page_title{
+    border-bottom: 5px solid var(--primary-color)
+}
+#internal .page_title{
+    font-size: 30px;
+}
+#internal .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#internal .row .txt {
+    width: 100%;
+    padding: 15px;
+}
+#internal .row .txt2 {
+    width: 100%;
+    padding: 15px;
+}
+#internal .row .txt h3 {
+    font-size: 30px;
+}
+#internal .row .img-container {
+    width: 100%;
+    padding: 15px;
+}
+#internal .row .img-container2 {
+    width: 100%;
+    padding: 15px;
+}
+#internal .row .img-container img {
+    width: 100%;
+}
+@media (min-width: 768px){
+    #internal .page_title{
+        font-size: 45px;
+    }
+    #internal .row .txt{
+        width: 70%;
+    }
+    #internal .row .txt2{
+        width: 30%;
+    }
+    #internal .row .img-container{
+        width: 30%;
+    }
+    #internal .row .img-container2 {
+        width: 70%;
+        padding: 15px;
+    }
+}
