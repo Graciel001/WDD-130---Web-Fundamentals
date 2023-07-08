@@ -288,14 +288,14 @@ footer .row .quick-link a:hover {
 
 /* SKILLS PAGE*/
 #internal .page_title{
-    border-bottom: 5px solid var(--primary-color)
+    border-bottom: 5px solid var(--accent1-color)
 }
-#internal .page_title{
+#internal .page_title h1{
     font-size: 30px;
+    color: var(--accent1-color)
 }
 #internal .row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 #internal .row .txt {
